@@ -184,6 +184,7 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.Font = new System.Drawing.Font("TH SarabunIT๙", 18.2F, System.Drawing.FontStyle.Bold);
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "50",
@@ -191,20 +192,32 @@
             "70"});
             this.comboBox2.Location = new System.Drawing.Point(32, 213);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(368, 48);
+            this.comboBox2.Size = new System.Drawing.Size(368, 40);
             this.comboBox2.TabIndex = 183;
             this.comboBox2.Text = "ราคา";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // numericUpDown1
             // 
+            this.numericUpDown1.Font = new System.Drawing.Font("TH SarabunIT๙", 18.2F, System.Drawing.FontStyle.Bold);
             this.numericUpDown1.Location = new System.Drawing.Point(32, 144);
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(368, 49);
+            this.numericUpDown1.Size = new System.Drawing.Size(368, 42);
             this.numericUpDown1.TabIndex = 180;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("TH SarabunIT๙", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "เอสเพรสโซ",
@@ -217,7 +230,7 @@
             "ช็อกโกแลลต"});
             this.comboBox1.Location = new System.Drawing.Point(32, 72);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(368, 48);
+            this.comboBox1.Size = new System.Drawing.Size(368, 40);
             this.comboBox1.TabIndex = 162;
             this.comboBox1.Text = "กรุณาเลือกเมนู";
             // 
@@ -234,6 +247,7 @@
             // 
             this.label22.AutoSize = true;
             this.label22.Font = new System.Drawing.Font("TH SarabunIT๙", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label22.ForeColor = System.Drawing.Color.Black;
             this.label22.Location = new System.Drawing.Point(26, 332);
             this.label22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label22.Name = "label22";

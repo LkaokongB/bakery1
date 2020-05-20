@@ -318,6 +318,7 @@
             // 
             // comboBox2
             // 
+            this.comboBox2.Font = new System.Drawing.Font("TH SarabunIT๙", 18F, System.Drawing.FontStyle.Bold);
             this.comboBox2.FormattingEnabled = true;
             this.comboBox2.Items.AddRange(new object[] {
             "35",
@@ -325,20 +326,32 @@
             "20"});
             this.comboBox2.Location = new System.Drawing.Point(34, 182);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(368, 44);
+            this.comboBox2.Size = new System.Drawing.Size(368, 40);
             this.comboBox2.TabIndex = 183;
             this.comboBox2.Text = "ราคา";
             this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // numericUpDown1
             // 
+            this.numericUpDown1.Font = new System.Drawing.Font("TH SarabunIT๙", 18F, System.Drawing.FontStyle.Bold);
             this.numericUpDown1.Location = new System.Drawing.Point(34, 121);
+            this.numericUpDown1.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(368, 45);
+            this.numericUpDown1.Size = new System.Drawing.Size(368, 41);
             this.numericUpDown1.TabIndex = 180;
+            this.numericUpDown1.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // comboBox1
             // 
+            this.comboBox1.Font = new System.Drawing.Font("TH SarabunIT๙", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "เค้กช็อกโกแลต",
@@ -349,7 +362,7 @@
             "ครัวซองต์"});
             this.comboBox1.Location = new System.Drawing.Point(34, 61);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(368, 44);
+            this.comboBox1.Size = new System.Drawing.Size(368, 40);
             this.comboBox1.TabIndex = 162;
             this.comboBox1.Text = "กรุณาเลือกเมนู";
             // 
